@@ -26,6 +26,9 @@ export function ExperienceSection() {
               <div>
                 <h3 className="text-xl md:text-2xl font-bold text-text-primary">{experience.role}</h3>
                 <p className="text-neon-cyan font-mono">{experience.company}</p>
+                {experience.dates && (
+                  <p className="text-text-secondary text-sm mt-1">{experience.dates}</p>
+                )}
               </div>
               <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-mono border border-green-500/30">
                 <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
@@ -63,6 +66,26 @@ export function ExperienceSection() {
           <div className="glass rounded-xl p-6 opacity-80">
             <h3 className="text-lg font-bold text-text-primary">{experience.previous.role}</h3>
             <p className="text-purple font-mono text-sm">{experience.previous.company}</p>
+            {experience.previous.dates && (
+              <p className="text-text-secondary text-sm mt-1">{experience.previous.dates}</p>
+            )}
+            {experience.previous.highlights && (
+              <ul className="mt-4 space-y-3">
+                {experience.previous.highlights.map((highlight, i) => (
+                  <motion.li
+                    key={highlight}
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.1 }}
+                    className="flex items-start gap-3 text-text-secondary"
+                  >
+                    <span className="text-neon-cyan mt-1 shrink-0">▸</span>
+                    <span className="hover:text-text-primary transition-colors">{highlight}</span>
+                  </motion.li>
+                ))}
+              </ul>
+            )}
           </div>
         </motion.div>
       </div>

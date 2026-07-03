@@ -6,7 +6,7 @@ export const personalInfo = {
   summary:
     'Cloud & DevOps Engineer with 1+ year of production experience designing, automating, and operating cloud-native infrastructure and CI/CD pipelines on AWS. Experienced in Kubernetes, Terraform, Docker, GitLab CI/CD, Prometheus, Grafana, Loki, CloudWatch, and AWS cloud services. Passionate about Infrastructure as Code, DevSecOps, Observability, and Platform Engineering.',
   email: 'shreeya.maliye@example.com',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: 'https://drive.google.com/file/d/1TtvdjmfhsmmibknI8203MI13JotJ5ZHt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/shreeya-maliye-81a20723b/',
     github: 'https://github.com/Shreey07m',
@@ -85,6 +85,7 @@ export const skillCategories = {
 export const experience = {
   role: 'Cloud Engineer',
   company: 'Arthan Finance Pvt Ltd',
+  dates: 'Aug 2025 - Present',
   highlights: [
     'Reduced deployment time by 40%',
     'Managed production deployments',
@@ -97,26 +98,30 @@ export const experience = {
   previous: {
     role: 'R&D Intern',
     company: 'EduDiagno Pvt Ltd',
+    dates: 'Jan 2025 - June 2025',
+    description:
+      'Contributed to a SaaS job portal with AWS deployment and ML-driven job recommendations, improving match relevance and delivery reliability.',
     highlights: [
-     'Built and deployed a production-grade Job Portal on AWS',
-     'Developed an ML-powered job recommendation engine',
-     'Improved job-match relevance by 30%',
-     'Implemented AWS EC2 and S3 based deployment architecture',
-     'Ensured production reliability through end-to-end testing'
-    ]
+      'Built and deployed a production-grade Job Portal on AWS',
+      'Developed an ML-powered job recommendation engine',
+      'Improved job-match relevance by 30%',
+      'Implemented AWS EC2 and S3 based deployment architecture',
+      'Ensured production reliability through end-to-end testing',
+      'Collaborated with QA and product teams to deliver a scalable, user-focused platform',
+    ],
   },
 }
 
 export const projects = [
   {
-    id: 1,
-    title: '11-Microservice E-Commerce Platform on AWS EKS',
-    tech: ['AWS EKS', 'Terraform', 'GitLab CI/CD', 'Docker', 'Kubernetes', 'Helm', 'Prometheus', 'Grafana'],
-    features: ['11 microservices', 'Terraform automation', 'Observability stack', 'GitOps deployment'],
-   // github: 'https://github.com/shreeya-maliye/eks-ecommerce',
-    // demo: 'https://demo.example.com',
-    gradient: 'from-cyan-500/20 to-blue-600/20',
-  },
+  id: 1,
+  title: 'Automated DevOps CI/CD Pipeline with GitLab, AWS EKS & Observability',
+  tech: ['GitLab CI/CD', 'Docker', 'AWS ECR', 'AWS EKS', 'Kubernetes', 'Prometheus', 'Grafana', 'Python'],
+  features: ['End-to-end CI/CD automation', 'Dockerized Python Flask application', 'Branch-based deployment strategy', 'Zero-downtime releases with rollback', 'Prometheus & Grafana observability stack', 'Production issue troubleshooting experience'],
+  github: 'https://github.com/Shreey07m/Automated-DevOps-Pipeline-using-GitLab-CI-CD-and-Kubernetes.git',
+  // demo: 'https://demo.example.com',
+  gradient: 'from-cyan-500/20 to-blue-600/20',
+},
   {
     id: 2,
     title: 'DevSecOps CI/CD Pipeline on AWS ECS',
@@ -178,7 +183,23 @@ export const projects = [
   github: 'https://github.com/Shreey07m/3-Tier-Architecture-',
   // demo: '#',
   gradient: 'from-orange-500/20 to-red-600/20',
+},
+{
+  id: 6,
+  title: 'AWS EKS Cluster Automation using Terraform',
+  tech: ['Terraform', 'AWS EKS', 'Amazon VPC', 'IAM', 'EC2', 'Kubernetes', 'AWS CLI', 'Git', 'Infrastructure as Code (IaC)'],
+  features: [
+    'Production-ready EKS cluster with Terraform',
+    'Modular Infrastructure as Code (IaC)',
+    'Highly available AWS VPC with subnets, IGW, NAT Gateway',
+    'Automated provisioning with reusable Terraform modules',
+    'Standardized resource tagging for consistency'
+  ],
+  github: 'https://github.com/Shreey07m/AWS-EKS-Cluster-Automation-using-Terraform.git',
+  // demo: 'https://demo.example.com',
+  gradient: 'from-green-500/20 to-emerald-600/20',
 }
+
 ]
 
 export const architectureNodes = [
