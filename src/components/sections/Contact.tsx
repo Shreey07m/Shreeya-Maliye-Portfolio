@@ -40,7 +40,7 @@ export function Contact() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="your.email@example.com"
+                placeholder="shreeyamaliye@gmail.com"
                 className="w-full px-4 py-3 rounded-lg bg-bg-primary/80 border border-neon-cyan/20 text-text-primary placeholder:text-text-secondary/50 focus:outline-none focus:border-neon-cyan/50 focus:shadow-[0_0_20px_rgba(0,229,255,0.15)] transition-all"
               />
             </div>
