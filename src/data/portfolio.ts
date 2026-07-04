@@ -6,7 +6,7 @@ export const personalInfo = {
   summary:
     'Cloud & DevOps Engineer with 1+ year of production experience designing, automating, and operating cloud-native infrastructure and CI/CD pipelines on AWS. Experienced in Kubernetes, Terraform, Docker, GitLab CI/CD, Prometheus, Grafana, Loki, CloudWatch, and AWS cloud services. Passionate about Infrastructure as Code, DevSecOps, Observability, and Platform Engineering.',
   email: 'shreeya.maliye@example.com',
-  resumeUrl: 'https://drive.google.com/file/d/1TtvdjmfhsmmibknI8203MI13JotJ5ZHt/view?usp=sharing',
+  resumeUrl: 'https://drive.google.com/file/d/1kGa97tWcNZKfgbf0MI0HYkYrGKd3GYbQ/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/shreeya-maliye-81a20723b/',
     github: 'https://github.com/Shreey07m',
