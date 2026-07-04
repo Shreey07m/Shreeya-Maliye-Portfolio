@@ -123,16 +123,7 @@ export const projects = [
   gradient: 'from-cyan-500/20 to-blue-600/20',
 },
   {
-    id: 2,
-    title: 'DevSecOps CI/CD Pipeline on AWS ECS',
-    tech: ['GitLab CI/CD', 'SonarCloud', 'Trivy', 'Docker', 'Amazon ECS', 'ALB'],
-    features: ['Security scanning', 'Automated deployment', 'Zero downtime release'],
-    //github: 'https://github.com/shreeya-maliye/devsecops-ecs',
-    // demo: 'https://demo.example.com',
-    gradient: 'from-blue-500/20 to-purple-600/20',
-  },
-  {
-  id: 3,
+  id: 2,
   title: 'Image Quality Assessment System',
   tech: [
     'Python',
@@ -152,7 +143,7 @@ export const projects = [
   gradient: 'from-green-500/20 to-emerald-600/20',
 },
   {
-  id: 4,
+  id: 3,
   title: 'AWS Terraform Infrastructure Automation',
   tech: ['Terraform', 'AWS EC2', 'VPC', 'IAM', 'Security Groups', 'Linux'],
   features: [
@@ -165,7 +156,7 @@ export const projects = [
   gradient: 'from-blue-500/20 to-cyan-600/20',
 },
   {
-  id: 5,
+  id: 4,
   title: 'Highly Available AWS 3-Tier Architecture',
   tech: [
     'AWS',
@@ -185,7 +176,7 @@ export const projects = [
   gradient: 'from-orange-500/20 to-red-600/20',
 },
 {
-  id: 6,
+  id: 5,
   title: 'AWS EKS Cluster Automation using Terraform',
   tech: ['Terraform', 'AWS EKS', 'Amazon VPC', 'IAM', 'EC2', 'Kubernetes', 'AWS CLI', 'Git', 'Infrastructure as Code (IaC)'],
   features: [
